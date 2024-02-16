@@ -1,0 +1,5 @@
+"Item Name","Date","Price","Currency Id","Status","Total Amount","Sub Amount","Tax Amount","Tax Id","Account Code Id","Language Id","Assign To","Assign To Id"
+"keyboard","2023-10-12","200","318","approved","","","","","","","",""
+"monitor","2023-10-12","200","318","approved","250","200","50","2","1","2","Client","5"
+"cpu","2023-10-12","200","318","approved","250","200","50","2","1","2","Client","5"
+"keyboard test","2023-10-12","2000","318","approved","250","200","50","2","1","2","Client","5"

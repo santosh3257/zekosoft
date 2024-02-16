@@ -1,0 +1,496 @@
+{"roles": {
+    
+    "Business Owner": {
+        "dashboard": {
+        "add": true,
+        "edit": true,
+        "view": true,
+        "delete": true
+        },
+        "clients": {
+          "add": true,
+          "edit": true,
+          "view": true,
+          "delete": true
+          },
+          "estimates": {
+            "add": true,
+            "edit": true,
+            "view": true,
+            "delete": true
+            },
+            "invoices": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "projects": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "articles": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "bills": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "expenses": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "vendors": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "time-tracker": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "payments": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "bookings": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "reports": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            },
+            "settings": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+            }
+        },
+        "admin": {
+            "dashboard": {
+            "add": true,
+            "edit": true,
+            "view": true,
+            "delete": true
+            },
+            "clients": {
+            "add": true,
+            "edit": true,
+            "view": true,
+            "delete": true
+            },
+            "estimates": {
+                "add": true,
+                "edit": true,
+                "view": true,
+                "delete": true
+                },
+                "invoices": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "projects": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "articles": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "teams": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "link-account": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "bills": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "expenses": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "vendors": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "time-tracker": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "payments": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "bookings": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "reports": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "settings": {
+                    "add": false,
+                    "edit": false,
+                    "view": true,
+                    "delete": false
+                }
+            },
+            "employee": {
+                "dashboard": {
+                    "view": true,
+                    "access": [{
+                    "projects":{
+                        "view": true
+                    },
+                    "time-tracker":{
+                        "view": true
+                    },
+                    "settings":{
+                        "view": true
+                    }
+                    }]
+                },
+                "projects": {
+                "add": false,
+                "edit": false,
+                "view": true,
+                "delete": false
+                },
+                "time-tracker": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                },
+                "settings": {
+                    "add": false,
+                    "edit": false,
+                    "view": true,
+                    "delete": false
+                }
+                },
+                "manager": {
+                    "dashboard": {
+                    "view": true,
+                    "access": [{
+                    "invoices":{
+                        "view": true
+                    },
+                    "projects":{
+                        "view": true
+                    },
+                    "time-tracker":{
+                        "view": true
+                    },
+                    "settings":{
+                        "view": true
+                    }
+                    }]  
+                    },
+                    "clients": {
+                    "add": true,
+                    "edit": true,
+                    "view": true,
+                    "delete": true
+                    },
+                    "estimates": {
+                        "add": true,
+                        "edit": true,
+                        "view": true,
+                        "delete": true
+                        },
+                        "invoices": {
+                            "add": false,
+                            "edit": false,
+                            "view": true,
+                            "delete": false
+                        },
+                        "projects": {
+                            "add": false,
+                            "edit": false,
+                            "view": true,
+                            "delete": false
+                        },
+                        "articles": {
+                            "add": true,
+                            "edit": true,
+                            "view": true,
+                            "delete": true
+                        },
+                        "bills": {
+                            "add": false,
+                            "edit": false,
+                            "view": true,
+                            "delete": false
+                        },
+                        "time-tracker": {
+                            "add": true,
+                            "edit": true,
+                            "view": true,
+                            "delete": true
+                        },
+                        "settings": {
+                            "add": false,
+                            "edit": false,
+                            "view": true,
+                            "delete": false
+                        }
+                    },
+                    "bookkeeper": {
+                        "dashboard": {
+                        "add": true,
+                        "edit": true,
+                        "view": true,
+                        "delete": true
+                        },
+                        "clients": {
+                        "add": false,
+                        "edit": false,
+                        "view": true,
+                        "delete": false
+                        },
+                        "estimates": {
+                            "add": false,
+                            "edit": false,
+                            "view": true,
+                            "delete": false
+                            },
+                            "invoices": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "projects": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "articles": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "bills": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "expenses": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "vendors": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "time-tracker": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "payments": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "bookings": {
+                                "add": true,
+                                "edit": true,
+                                "view": true,
+                                "delete": true
+                            },
+                            "reports": {
+                                "add": true,
+                                "edit": true,
+                                "view": true,
+                                "delete": true
+                            },
+                            "settings": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            }
+                        },
+                        "Bookkeeper Full Access": {
+                            "dashboard": {
+                            "add": true,
+                            "edit": true,
+                            "view": true,
+                            "delete": true
+                            },
+                            "clients": {
+                            "add": true,
+                            "edit": true,
+                            "view": true,
+                            "delete": true
+                            },
+                            "estimates": {
+                                "add": true,
+                                "edit": true,
+                                "view": true,
+                                "delete": true
+                                },
+                                "invoices": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "projects": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "articles": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "bills": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "expenses": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "vendors": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "time-tracker": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "payments": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "bookings": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "reports": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                },
+                                "settings": {
+                                    "add": true,
+                                    "edit": true,
+                                    "view": true,
+                                    "delete": true
+                                }
+                            },
+                            "contractor": {
+                            "dashboard": {
+                                "view": true,
+                                "access": [{
+                                "projects":{
+                                    "view": true
+                                },
+                                "time-tracker":{
+                                    "view": true
+                                },
+                                "settings":{
+                                    "view": true
+                                }
+                                }]
+                            },
+                            "projects": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            },
+                            "time-tracker": {
+                                "add": true,
+                                "edit": true,
+                                "view": true,
+                                "delete": true
+                            },
+                            "settings": {
+                                "add": false,
+                                "edit": false,
+                                "view": true,
+                                "delete": false
+                            }
+                        }
+    
+    }
+}

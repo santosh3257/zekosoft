@@ -1,0 +1,36 @@
+{
+    "name": "graham-campbell/bounded-cache",
+    "description": "A Bounded TTL PSR-16 Cache Implementation",
+    "keywords": ["psr16", "cache", "bounded cache", "bounded-cache", "Bounded", "Bounded Cache", "Bounded-Cache", "Graham Campbell", "GrahamCampbell"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Graham Campbell",
+            "email": "hello@gjcampbell.co.uk",
+            "homepage": "https://github.com/GrahamCampbell"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "psr/simple-cache": "^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^4.0",
+        "graham-campbell/testbench-core": "^4.0",
+        "mockery/mockery": "^1.5.1",
+        "phpunit/phpunit": "^9.6.3 || ^10.0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrahamCampbell\\BoundedCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GrahamCampbell\\Tests\\BoundedCache\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

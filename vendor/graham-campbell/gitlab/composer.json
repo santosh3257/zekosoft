@@ -1,0 +1,53 @@
+{
+    "name": "graham-campbell/gitlab",
+    "description": "GitLab Is A GitLab Bridge For Laravel",
+    "keywords": ["laravel", "framework", "gitlab", "php-gitlab-api", "PHP GitLab API", "gitlab bridge", "bridge", "GitLab", "Laravel GitLab", "Laravel-GitLab", "Graham Campbell", "GrahamCampbell"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Graham Campbell",
+            "email": "hello@gjcampbell.co.uk",
+            "homepage": "https://github.com/GrahamCampbell"
+        }
+    ],
+    "require": {
+        "php":  "^7.4.15 || ^8.0.2",
+        "graham-campbell/bounded-cache": "^1.2 || ^2.0",
+        "graham-campbell/manager": "^5.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "guzzlehttp/psr7": "^2.4",
+        "illuminate/contracts": "^8.75 || ^9.0 || ^10.0",
+        "illuminate/support": "^8.75 || ^9.0 || ^10.0",
+        "m4tthumphrey/php-gitlab-api": "11.9.*",
+        "symfony/cache": "^5.4 || ^6.0"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^4.0",
+        "graham-campbell/testbench": "^6.0",
+        "mockery/mockery": "^1.5.1",
+        "phpunit/phpunit": "^9.6.3 || ^10.0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrahamCampbell\\GitLab\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GrahamCampbell\\Tests\\GitLab\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GrahamCampbell\\GitLab\\GitLabServiceProvider"
+            ]
+        }
+    }
+}
